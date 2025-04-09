@@ -1,0 +1,68 @@
+/* importation de la police 'Poppins' de Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+html, body{
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+}
+nav{
+
+border-bottom: 3px solid blue;
+position: sticky;
+padding: 1px 1px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#logo{
+   display: flex;
+   gap: 10px;
+   margin: 10px;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   gap: 16px;
+}
+.avatar{
+   display: flex;
+   width: 80px;
+   height: 80px;
+   border-radius: 100%;
+   border: 2px solid blue;
+   object-fit: cover;
+}
+.Panier{
+   display: flex;
+   gap: 10px;
+}
+
+.bouton{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration:none;
+    padding: 8px 16px;
+    width:fit-content;
+    font-weight: 500;
+    transition: all .3 ease-in-out;
+}
+.bouton.prmaire{
+   background-color: blueviolet
+   color:aliceblue
+   ;
+}
+
